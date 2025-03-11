@@ -17,10 +17,22 @@ let myObj = {
     age: 21,
 }
 
-console.log(myObj)
+// console.log(myObj)
 
 // function(){} => function defination in js
 
 const myFunction = function(){
     console.log("HEllo world");
 }
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Memories : Stack(Primitive) ,  Heap(Non-Primitive)
+
+let myYoutubename = "Adityakachannelhai"
+
+let anothername = myYoutubename
+
+console.log(anothername)
