@@ -15,3 +15,4 @@ console.log(null >= 0) // (the reason is that an equality check ==  and comparis
 // === strict check  (also checks datatypes)
 
 console.log("2" === 2)
+
