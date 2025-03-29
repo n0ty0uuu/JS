@@ -28,8 +28,28 @@ const obj2 = {3:"c",4:"d"}
 // const obj3 = {...obj1,...obj2} // --> ye easy way hai merge krna ka 
 // console.log(obj3)
 
-console.log(tinderUser)
-console.log(Object.keys(tinderUser)) // --> is sai objects ke sari keys mil jyage 
-console.log(Object.values(tinderUser)) // is sai sare objects ke values mil jyage 
-console.log(Object.entries(tinderUser)) // is sai objects ke keys and values mil jyage as an array
-console.log(tinderUser.hasOwnProperty('id')) // --> is sai check kr skte hai ki object mai koi key hai ya nhi
+// console.log(tinderUser)
+// console.log(Object.keys(tinderUser)) // --> is sai objects ke sari keys mil jyage 
+// console.log(Object.values(tinderUser)) // is sai sare objects ke values mil jyage 
+// console.log(Object.entries(tinderUser)) // is sai objects ke keys and values mil jyage as an array
+// console.log(tinderUser.hasOwnProperty('id')) // --> is sai check kr skte hai ki object mai koi key hai ya nhi
+
+
+// const course = {
+//     coursename: "js in hindi",
+//     price: "999",
+//     courseInstructor:"hitesh"
+// }
+// const {courseInstructor: instructor} = course // aise kisi bhi value ko destructor kar skte hai 
+// console.log(instructor)
+
+// const {coursename, ...restProps} = course // aise kisi bhi value ko destructor kar skte hai
+// console.log(coursename)
+
+
+// Json ka format hai ye 
+{
+    "name": "ADitya",
+    "age": "40",
+    "gender":"Male"
+}
