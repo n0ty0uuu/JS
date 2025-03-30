@@ -12,4 +12,36 @@ var c = 30 // --> One should avoid using var in there codes
 
 // console.log(a);
 // console.log(b);
-console.log(c);
+// console.log(c);
+
+
+function one(){
+    const username = "Aditya"
+    
+    function two(){
+        const website = "youtube"
+        console.log(username);
+        
+    }
+    // console.log(website); // will never execute score kai bahar hai kyoki 
+
+    two()
+    
+}
+// one()
+
+
+//**********************************interesting**************************************** 
+
+function addone(num) {
+    return num+1
+}
+
+console.log(addone(5))
+
+const addTwo = function(num){
+    
+    return num + 2
+}
+
+console.log(addTwo(5));
