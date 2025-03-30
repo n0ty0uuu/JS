@@ -31,4 +31,29 @@ function loginuserMessage(username = "jayant"){ // username = "jayant" => agar k
     }
     return `${username} just logged in `
 }
-console.log(loginuserMessage())
+// console.log(loginuserMessage())
+
+
+function calculateCartPrice(val1,val2,...num1){// jab pata na kitne arguments pass honge toh rest operator use krte hai toh vo sabko lte hai
+    return num1
+}
+// console.log(calculateCartPrice(20,20,60,65))
+
+const user = {
+    username : "Aditya",
+    price: 6000
+}
+function handleObject(tryObject){
+    console.log(`username is ${tryObject.username} and price is ${tryObject.price}`)
+}
+// handleObject({ //direct object banake bhi pass kar skte hai 
+//     username:"ADITYA",
+//     price: 500
+// })
+
+const newArray = [100,344,546,675]
+
+function returnsecondvalue(getarray){
+    return getarray
+}
+console.log(returnsecondvalue(newArray));
