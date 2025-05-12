@@ -13,10 +13,13 @@ const coding = ["js","riby","java","python","cpp"]
 // } )
 
 coding.forEach( (item, index , arr)=>{
-    // console.log(item,index,arr);// item , index, arr -> for each mai iske pass in cheezo ka bhi access rhta hai 
+    //  console.log(item,index,arr);// item , index, arr -> for each mai iske pass in cheezo ka bhi access rhta hai 
     
 })
-
+coding.forEach(function(item,index,arr){
+    // console.log(item,index,arr);
+    
+})
 const myCoding = [
     {
     languageName: "javascript",
@@ -35,6 +38,6 @@ const myCoding = [
 ]
 
 myCoding.forEach((element , index,arr) => {
-    console.log(element.languageName,index,arr);
+    console.log(element,index,arr);
     
 });

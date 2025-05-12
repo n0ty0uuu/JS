@@ -23,7 +23,7 @@ const Myname = "Aditya Prakash"
 
 for(const name of Myname){
     if(name == " ") continue;
-    // console.log(`Each char is : ${name}`);
+    console.log(`Each char is : ${name}`);
     
 }
 
@@ -45,6 +45,6 @@ for(const cont of map){ // aise poora array de dega ye map ka
 }
 
 for(const [contt , value] of map){// aise key and uske value ko alag alag print kr skte ai
-    console.log(contt ,'-' ,value);
+    // console.log(contt ,'-' ,value);
     
 }

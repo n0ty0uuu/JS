@@ -8,11 +8,11 @@ const myObject = {
 }
 
 for (const key in myObject) { // AIse sari keys aa jyange 
-    // console.log(key);
+    console.log(key);
     
 }
 for(const key in myObject){// sare valyes mil jyange keys ke 
-    // console.log(myObject[key]);
+    console.log(myObject[key]);
     
 }
 
